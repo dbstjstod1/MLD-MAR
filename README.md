@@ -15,11 +15,11 @@ https://github.com/mueller-franzes/medfusion
 
 Please refer to these repositories for data and environment setup.
 
-The model can be trained by using the code at MLD-LDM/latent-diffusion/medfusion-deeplesion/scripts/train_diffusion_deeplesion_mlp.py
+The latent diffusion model can be trained by using the code at MLD-LDM/latent-diffusion/medfusion-deeplesion/scripts/train_diffusion_deeplesion_mlp.py
 
-The model can be tested by using the code at MLD-LDM/latent-diffusion/medfusion-deeplesion/scripts/sample_deeplesion_mlp.py
+The latent diffusion model can be tested by using the code at MLD-LDM/latent-diffusion/medfusion-deeplesion/scripts/sample_deeplesion_mlp.py
 
-The model checkpoint for running the latent diffusion model can be downloaded at https://drive.google.com/file/d/1EGuv2YWvZq3SqYIr9vjiWyw6a4ADK2UG/view?usp=sharing
+The checkpoint for running the latent diffusion model can be downloaded at https://drive.google.com/file/d/1EGuv2YWvZq3SqYIr9vjiWyw6a4ADK2UG/view?usp=sharing
 
 The checkpoint file has to be placed at MLD-LDM/latent-diffusion/medfusion-deeplesion-checkpoint/diffusion_deeplesion_mlp/2025_04_02_121300
 
