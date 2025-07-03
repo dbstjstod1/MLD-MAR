@@ -1,0 +1,11 @@
+python test.py \
+--data_folder /home/ysh/Desktop/medfusion-main/scripts/LDM-NMAR+ \
+--dataset AAPM_MAR_Challange \
+--output_folder ./results/cvqvae_128_4096_4_dentium_mua \
+--model_name AAPM_cos_closest/best.pt \
+--batch_size 1 \
+--device cuda \
+--num_embedding 4096 \
+--embedding_dim 4 \
+--distance cos \
+--perceptual_loss \

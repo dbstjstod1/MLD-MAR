@@ -1,0 +1,16 @@
+python main_deeplesion.py \
+--data_folder /data/1/CVQ-VAE-deeplesion/DeepLesion_metal \
+--dataset Deeplesion_dataset \
+--output_folder ./results/Deeplesion_128_4096_4 \
+--exp_name Xma \
+--batch_size 8 \
+--hidden_size 128 \
+--device cuda \
+--num_epochs 1000 \
+--num_embedding 4096 \
+--embedding_dim 4 \
+--distance cos \
+--anchor closest \
+--perceptual_loss \
+--lr 0.0003 \
+--train_continue
